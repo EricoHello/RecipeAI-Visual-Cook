@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		072888E92BC4CD5B0047136D /* RecipeAI_Visual_CookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072888E82BC4CD5B0047136D /* RecipeAI_Visual_CookApp.swift */; };
+		072888EB2BC4CD5B0047136D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072888EA2BC4CD5B0047136D /* ContentView.swift */; };
+		072888ED2BC4CD5D0047136D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 072888EC2BC4CD5D0047136D /* Assets.xcassets */; };
+		072888F02BC4CD5D0047136D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 072888EF2BC4CD5D0047136D /* Preview Assets.xcassets */; };
+		072888FA2BC4CD5D0047136D /* RecipeAI_Visual_CookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072888F92BC4CD5D0047136D /* RecipeAI_Visual_CookTests.swift */; };
+		072889042BC4CD5D0047136D /* RecipeAI_Visual_CookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072889032BC4CD5D0047136D /* RecipeAI_Visual_CookUITests.swift */; };
+		072889062BC4CD5D0047136D /* RecipeAI_Visual_CookUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072889052BC4CD5D0047136D /* RecipeAI_Visual_CookUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		072888F62BC4CD5D0047136D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 072888DD2BC4CD5B0047136D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 072888E42BC4CD5B0047136D;
+			remoteInfo = "RecipeAI Visual Cook";
+		};
+		072889002BC4CD5D0047136D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 072888DD2BC4CD5B0047136D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 072888E42BC4CD5B0047136D;
+			remoteInfo = "RecipeAI Visual Cook";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		072888E52BC4CD5B0047136D /* RecipeAI Visual Cook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RecipeAI Visual Cook.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		072888E82BC4CD5B0047136D /* RecipeAI_Visual_CookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeAI_Visual_CookApp.swift; sourceTree = "<group>"; };
+		072888EA2BC4CD5B0047136D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		072888EC2BC4CD5D0047136D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		072888EF2BC4CD5D0047136D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		072888F52BC4CD5D0047136D /* RecipeAI Visual CookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RecipeAI Visual CookTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		072888F92BC4CD5D0047136D /* RecipeAI_Visual_CookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeAI_Visual_CookTests.swift; sourceTree = "<group>"; };
+		072888FF2BC4CD5D0047136D /* RecipeAI Visual CookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RecipeAI Visual CookUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		072889032BC4CD5D0047136D /* RecipeAI_Visual_CookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeAI_Visual_CookUITests.swift; sourceTree = "<group>"; };
+		072889052BC4CD5D0047136D /* RecipeAI_Visual_CookUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeAI_Visual_CookUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		072888E22BC4CD5B0047136D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		072888F22BC4CD5D0047136D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		072888FC2BC4CD5D0047136D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		072888DC2BC4CD5B0047136D = {
+			isa = PBXGroup;
+			children = (
+				072888E72BC4CD5B0047136D /* RecipeAI Visual Cook */,
+				072888F82BC4CD5D0047136D /* RecipeAI Visual CookTests */,
+				072889022BC4CD5D0047136D /* RecipeAI Visual CookUITests */,
+				072888E62BC4CD5B0047136D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		072888E62BC4CD5B0047136D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				072888E52BC4CD5B0047136D /* RecipeAI Visual Cook.app */,
+				072888F52BC4CD5D0047136D /* RecipeAI Visual CookTests.xctest */,
+				072888FF2BC4CD5D0047136D /* RecipeAI Visual CookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		072888E72BC4CD5B0047136D /* RecipeAI Visual Cook */ = {
+			isa = PBXGroup;
+			children = (
+				072888E82BC4CD5B0047136D /* RecipeAI_Visual_CookApp.swift */,
+				072888EA2BC4CD5B0047136D /* ContentView.swift */,
+				072888EC2BC4CD5D0047136D /* Assets.xcassets */,
+				072888EE2BC4CD5D0047136D /* Preview Content */,
+			);
+			path = "RecipeAI Visual Cook";
+			sourceTree = "<group>";
+		};
+		072888EE2BC4CD5D0047136D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				072888EF2BC4CD5D0047136D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		072888F82BC4CD5D0047136D /* RecipeAI Visual CookTests */ = {
+			isa = PBXGroup;
+			children = (
+				072888F92BC4CD5D0047136D /* RecipeAI_Visual_CookTests.swift */,
+			);
+			path = "RecipeAI Visual CookTests";
+			sourceTree = "<group>";
+		};
+		072889022BC4CD5D0047136D /* RecipeAI Visual CookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				072889032BC4CD5D0047136D /* RecipeAI_Visual_CookUITests.swift */,
+				072889052BC4CD5D0047136D /* RecipeAI_Visual_CookUITestsLaunchTests.swift */,
+			);
+			path = "RecipeAI Visual CookUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		072888E42BC4CD5B0047136D /* RecipeAI Visual Cook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 072889092BC4CD5D0047136D /* Build configuration list for PBXNativeTarget "RecipeAI Visual Cook" */;
+			buildPhases = (
+				072888E12BC4CD5B0047136D /* Sources */,
+				072888E22BC4CD5B0047136D /* Frameworks */,
+				072888E32BC4CD5B0047136D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RecipeAI Visual Cook";
+			productName = "RecipeAI Visual Cook";
+			productReference = 072888E52BC4CD5B0047136D /* RecipeAI Visual Cook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		072888F42BC4CD5D0047136D /* RecipeAI Visual CookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0728890C2BC4CD5D0047136D /* Build configuration list for PBXNativeTarget "RecipeAI Visual CookTests" */;
+			buildPhases = (
+				072888F12BC4CD5D0047136D /* Sources */,
+				072888F22BC4CD5D0047136D /* Frameworks */,
+				072888F32BC4CD5D0047136D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				072888F72BC4CD5D0047136D /* PBXTargetDependency */,
+			);
+			name = "RecipeAI Visual CookTests";
+			productName = "RecipeAI Visual CookTests";
+			productReference = 072888F52BC4CD5D0047136D /* RecipeAI Visual CookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		072888FE2BC4CD5D0047136D /* RecipeAI Visual CookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0728890F2BC4CD5D0047136D /* Build configuration list for PBXNativeTarget "RecipeAI Visual CookUITests" */;
+			buildPhases = (
+				072888FB2BC4CD5D0047136D /* Sources */,
+				072888FC2BC4CD5D0047136D /* Frameworks */,
+				072888FD2BC4CD5D0047136D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				072889012BC4CD5D0047136D /* PBXTargetDependency */,
+			);
+			name = "RecipeAI Visual CookUITests";
+			productName = "RecipeAI Visual CookUITests";
+			productReference = 072888FF2BC4CD5D0047136D /* RecipeAI Visual CookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		072888DD2BC4CD5B0047136D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					072888E42BC4CD5B0047136D = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					072888F42BC4CD5D0047136D = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 072888E42BC4CD5B0047136D;
+					};
+					072888FE2BC4CD5D0047136D = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 072888E42BC4CD5B0047136D;
+					};
+				};
+			};
+			buildConfigurationList = 072888E02BC4CD5B0047136D /* Build configuration list for PBXProject "RecipeAI Visual Cook" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 072888DC2BC4CD5B0047136D;
+			productRefGroup = 072888E62BC4CD5B0047136D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				072888E42BC4CD5B0047136D /* RecipeAI Visual Cook */,
+				072888F42BC4CD5D0047136D /* RecipeAI Visual CookTests */,
+				072888FE2BC4CD5D0047136D /* RecipeAI Visual CookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		072888E32BC4CD5B0047136D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				072888F02BC4CD5D0047136D /* Preview Assets.xcassets in Resources */,
+				072888ED2BC4CD5D0047136D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		072888F32BC4CD5D0047136D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		072888FD2BC4CD5D0047136D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		072888E12BC4CD5B0047136D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				072888EB2BC4CD5B0047136D /* ContentView.swift in Sources */,
+				072888E92BC4CD5B0047136D /* RecipeAI_Visual_CookApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		072888F12BC4CD5D0047136D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				072888FA2BC4CD5D0047136D /* RecipeAI_Visual_CookTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		072888FB2BC4CD5D0047136D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				072889062BC4CD5D0047136D /* RecipeAI_Visual_CookUITestsLaunchTests.swift in Sources */,
+				072889042BC4CD5D0047136D /* RecipeAI_Visual_CookUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		072888F72BC4CD5D0047136D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 072888E42BC4CD5B0047136D /* RecipeAI Visual Cook */;
+			targetProxy = 072888F62BC4CD5D0047136D /* PBXContainerItemProxy */;
+		};
+		072889012BC4CD5D0047136D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 072888E42BC4CD5B0047136D /* RecipeAI Visual Cook */;
+			targetProxy = 072889002BC4CD5D0047136D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		072889072BC4CD5D0047136D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		072889082BC4CD5D0047136D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0728890A2BC4CD5D0047136D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RecipeAI Visual Cook/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.ericohello.RecipeAI-Visual-Cook";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0728890B2BC4CD5D0047136D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RecipeAI Visual Cook/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.ericohello.RecipeAI-Visual-Cook";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0728890D2BC4CD5D0047136D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.ericohello.RecipeAI-Visual-CookTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RecipeAI Visual Cook.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RecipeAI Visual Cook";
+			};
+			name = Debug;
+		};
+		0728890E2BC4CD5D0047136D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.ericohello.RecipeAI-Visual-CookTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RecipeAI Visual Cook.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RecipeAI Visual Cook";
+			};
+			name = Release;
+		};
+		072889102BC4CD5D0047136D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.ericohello.RecipeAI-Visual-CookUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "RecipeAI Visual Cook";
+			};
+			name = Debug;
+		};
+		072889112BC4CD5D0047136D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.ericohello.RecipeAI-Visual-CookUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "RecipeAI Visual Cook";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		072888E02BC4CD5B0047136D /* Build configuration list for PBXProject "RecipeAI Visual Cook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				072889072BC4CD5D0047136D /* Debug */,
+				072889082BC4CD5D0047136D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		072889092BC4CD5D0047136D /* Build configuration list for PBXNativeTarget "RecipeAI Visual Cook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0728890A2BC4CD5D0047136D /* Debug */,
+				0728890B2BC4CD5D0047136D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0728890C2BC4CD5D0047136D /* Build configuration list for PBXNativeTarget "RecipeAI Visual CookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0728890D2BC4CD5D0047136D /* Debug */,
+				0728890E2BC4CD5D0047136D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0728890F2BC4CD5D0047136D /* Build configuration list for PBXNativeTarget "RecipeAI Visual CookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				072889102BC4CD5D0047136D /* Debug */,
+				072889112BC4CD5D0047136D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 072888DD2BC4CD5B0047136D /* Project object */;
+}
